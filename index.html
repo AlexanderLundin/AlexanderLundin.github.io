@@ -31,7 +31,7 @@
 					
 				<!-- Main -->
 					<div id="main">
-					<h2>e3</h2>
+					<h2>e4</h2>
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
@@ -43,7 +43,9 @@
 									<h3>Java Chat Bot On Freenode</h3>		
 								</header>
 								<p>Check this chat bot out with the embedded frame below. The frame has the channel value filled out for you already. Type a nickname, click I am not a robot, verify the reCAPTCHA image and click start. Once in the channel, type "humans".</p>
-								<iframe src="https://webchat.freenode.net/?channels=jcb-54321" width="100%" height="100%" frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0"></iframe>
+								<div class="iframe-container">
+										<iframe width="1425" height="559" src="https://webchat.freenode.net/?channels=jcb-54321"></iframe>
+								</div>
 								<p>This chat bot is built in java and connects to a freenode channel. The JavaChatBot will respond in chat any time a user sends a message that matches a known request. The 4 known request types are: time, zip, humans and weather. The JavaChatBot responds to a time request by printing a java.util.date object to string. The remaining 3 requests require API calls to other websites. JavaChatBot formats the API return values from JSON to string and prints into the channel. All external calls to webistes are printed in the chat so you can click the links and view the data if you'd like to.</p>
 								<ul class="actions special">	
 									<li><a href="https://github.com/AlexanderLundin/JavaChatBotFreenode" class="button large">Source code</a></li>
