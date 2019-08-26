@@ -23,7 +23,7 @@
 		width: 95%;
 		height: 100%;
 		overflow: hidden;
-		--chat-width: 0.75;
+		--chat-width: 0.85;
 		-ms-zoom: 0.50;
 		-ms-transform-origin: 0 0;
 		-moz-transform: scale(var(--chat-width));
