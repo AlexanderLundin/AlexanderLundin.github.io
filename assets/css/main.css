@@ -17,23 +17,7 @@
 	height: 100%;
 	overflow: hidden;
 }
-/* Conditional formatting for mobile devices*/
-@media screen and (max-width: 1000px) {
-	#frame {  
-		width: 95%;
-		height: 100%;
-		overflow: hidden;
-		--chat-width: 0.85;
-		-ms-zoom: 0.50;
-		-ms-transform-origin: 0 0;
-		-moz-transform: scale(var(--chat-width));
-		-moz-transform-origin: 0px 50px;
-		-o-transform: scale(var(--chat-width));
-		-o-transform-origin: 0px 50px;
-		-webkit-transform: scale(var(--chat-width));
-		-webkit-transform-origin: 0 0;
-	}
-}
+
 
 freenodeChat.container {
     position: relative;
