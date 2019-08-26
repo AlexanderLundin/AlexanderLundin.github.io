@@ -32,7 +32,7 @@
 		-o-transform: scale(var(--chat-width));
 		-o-transform-origin: 0px 50px;
 		-webkit-transform: scale(var(--chat-width));
-		-webkit-transform-origin: 0 0;
+		/* -webkit-transform-origin: 0 0; */
 	}
 }
 
