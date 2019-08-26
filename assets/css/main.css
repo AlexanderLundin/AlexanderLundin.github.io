@@ -10,30 +10,30 @@
 	width: 100%;
 	height: 600px;
 	padding: 0;
-	overflow: hidden;
 }
 #frame {  
 	width: 100%;
 	height: 100%;
-	overflow: hidden;
 }
 
-
-
-freenodeChat.container {
-    position: relative;
-    padding-bottom: 160.00%;
-    padding-top: 35px;
-    height: 0;
-    overflow: hidden;
-}
-
-freenodeChat.container iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+/* Conditional formatting for mobile devices to scale the chat window*/
+@media screen and (max-width: 700px) {
+	
+	#wrap {  
+		width: 800px;
+		height: 500px;
+	}
+	
+	#frame {  
+		width: 100%;
+		height: 100%;
+		--chat-scale-down: 0.45;
+		-ms-zoom: (var(--chat-scale-down));
+		-moz-transform: scale(var(--chat-scale-down));
+		-o-transform: scale(var(--chat-scale-down));
+		-webkit-transform: scale(var(--chat-scale-down));
+		-webkit-transform-origin: left;
+	}
 }
 
 html, body, div, span, applet, object,
