@@ -25,14 +25,10 @@
 		height: 100%;
 		overflow: hidden;
 		--chat-width: 0.60;
-		-ms-zoom: 0.50;
-		-ms-transform-origin: 0 0;
+		-ms-zoom: (var(--chat-width));
 		-moz-transform: scale(var(--chat-width));
-		-moz-transform-origin: 0px 50px;
 		-o-transform: scale(var(--chat-width));
-		-o-transform-origin: 0px 50px;
 		-webkit-transform: scale(var(--chat-width));
-		/* -webkit-transform-origin: 0 0; */
 	}
 }
 
