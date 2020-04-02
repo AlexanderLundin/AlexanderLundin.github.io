@@ -47,15 +47,24 @@
 								</header>
 								<header>
 									<h2>Featured Project</h2>
-									<h3>Java Chat Bot On Freenode</h3>		
+									<h3>Cloud hosted Spring Boot RESTFul Api with Front end and Back end</h3>		
 								</header>
-								<p>Check out this chat bot. The frame below has the channel value filled out for you already. Type a nickname, click I'm not a robot, verify the reCAPTCHA image and click start. Once in the channel, type "humans".</p>
+								<p>Check out this Rest API. The frame below in an embedded link to a cloud hosted JAVA application created with Spring Boot.</p>
 								<div id="wrap">
-										<iframe id="frame" allowfullscreen="" frameborder="0" src="https://webchat.freenode.net/?channels=javaChat12345"></iframe>
+										<iframe id="frame" allowfullscreen="" frameborder="0" src="http://serverless-customer-support-api-front-end.s3-website.us-east-2.amazonaws.com/"></iframe>
 								</div>
-								<p>This chat bot is built in java and connects to a freenode channel. The HomeComputer will respond in chat any time a user sends a message that matches a known request. The 4 known request types are: time, zip, humans and weather {valid zipcode}. HomeComputer responds to a time request by printing a java.util.date object to string. The remaining 3 requests require API calls to other websites. HomeComputer formats the API return values from JSON to string and prints into the channel. All external calls to websites are printed in the chat so you can click the links and view the data if you'd like to.</p>
+								<p>This web app is built in java. It has two parts. The part embedded in the frame above is the front-end. It is a React web page.
+									The front-end is hosted on AWS S3, for static hosting of web pages.
+									The second part is the back-end, also cloud hosted, but at a different endpoint. 
+									The back-end is hosted on AWS Elastic Beanstalk.
+									It is a Microservice API written in Java with Spring boot.
+									The back-end is CORS enabled so the front-end can access the data, even though they are hosted at different domains.
+								</p>
 								<ul class="actions special">	
-									<li><a href="https://github.com/AlexanderLundin/JavaChatBotFreenode" class="button large">Source code</a></li>
+									<li><a href="http://fastfoodrestapi-env.eba-mz87ac4w.us-east-2.elasticbeanstalk.com/api/orders" class="button large">Back End</a></li>
+								</ul>
+								<ul class="actions special">	
+									<li><a href="https://github.com/AlexanderLundin/fast-food-rest-api" class="button large">Source code</a></li>
 								</ul>
 							</article>
 
