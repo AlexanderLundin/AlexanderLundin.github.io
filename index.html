@@ -50,8 +50,12 @@
 									<h3>Cloud hosted Spring Boot RESTFul Api with Front end and Back end</h3>		
 								</header>
 								<p>Check out this Rest API. The frame below is a fully interactive embedded frame that holds another webpage inside. Try clicking buttons embedded in the frame below.</p>
-								<div id="wrap">
-										<iframe id="frame" allowfullscreen="" frameborder="0" src="http://serverless-customer-support-api-front-end.s3-website.us-east-2.amazonaws.com"></iframe>
+								<style>
+									#wrap-react {margin: 150px; }
+									#frame-react { width: 85%; height: 500px; -ms-zoom: 1.5; -moz-transform: scale(1.5); -o-transform: scale(1.5);-webkit-transform: scale(1.5); }
+								</style>
+								<div id="wrap-react">
+										<iframe id="frame-react" src="http://serverless-customer-support-api-front-end.s3-website.us-east-2.amazonaws.com"></iframe>
 								</div>
 								<p>This web app is built in java. It has two parts. The part embedded in the frame above is the front-end. It is a React web page.
 									The front-end is hosted on AWS S3, for static hosting of web pages.
@@ -73,6 +77,21 @@
 
 						<!-- Posts -->
 							<section class="posts">
+								<article>
+									<header>
+										<h2>Spring Boot REST API</h2>
+									</header>
+									<div width="350" height="350">
+											<img src="images/React-Rest-API.png" style='height: 100%; width: 100%; object-fit: contain'>
+									</div>
+									<ul class="actions special">
+										<li><a href="http://serverless-customer-support-api-front-end.s3-website.us-east-2.amazonaws.com" class="button">Cloud Web app</a></li>
+									</ul>
+									<ul class="actions special">
+										<li><a href="https://github.com/AlexanderLundin/fast-food-rest-api" class="button">Source code</a></li>
+									</ul>
+									<p>Spring Boot Rest API with react front end. Hosted with front end and back end on sepeerate AWS platforms.</p>
+								</article>
 								<article>
 									<header>
 										<h2>Python File Tree</h2>
